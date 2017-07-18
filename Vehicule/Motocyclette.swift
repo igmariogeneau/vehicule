@@ -17,6 +17,6 @@ class Motocyclette: Vehicule {
     }
     
     override func quiSuisJe() -> String {
-        return "Je suids une motocyclette \(couleur) avec un moteur \(moteur)"
+        return "Je suis une motocyclette \(couleur) avec un moteur \(moteur)"
     }
 }
