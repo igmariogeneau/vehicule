@@ -16,8 +16,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let fiat: Automobile = Automobile(couleur: "rouge", marque: "fiat", image: "fiat.png")
     let focus: Automobile = Automobile(couleur: "bleu", marque: "focus", image: "focus.jpg")
     let harley: Motocyclette = Motocyclette(couleur: "noire", moteur: "1200cc", image: "harley.jpg")
-    let hymer: Motorise = Motorise(couleur: "brun", longueur: "34", image: "hymer.jpg")
-    let prevost: Motorise = Motorise(couleur: "gris", longueur: "40", image: "prevost.jpg")
+    let hymer: Motorise = Motorise(couleur: "gris", longueur: "34", image: "hymer.jpg")
+    let prevost: Motorise = Motorise(couleur: "brun", longueur: "40", image: "prevost.jpg")
     let kawasaki: Motocyclette = Motocyclette(couleur: "verte", moteur: "1000cc", image: "kawasaki.jpg")
     
     var vehicules: [Vehicule]!
