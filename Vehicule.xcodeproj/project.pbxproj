@@ -12,6 +12,16 @@
 		9B63BDB21F1E88B400577ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDB01F1E88B400577ECF /* Main.storyboard */; };
 		9B63BDB41F1E88B400577ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDB31F1E88B400577ECF /* Assets.xcassets */; };
 		9B63BDB71F1E88B400577ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDB51F1E88B400577ECF /* LaunchScreen.storyboard */; };
+		9B63BDBF1F1E8A2000577ECF /* CellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63BDBE1F1E8A2000577ECF /* CellClass.swift */; };
+		9B63BDC61F1E8E4800577ECF /* fiat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDC11F1E8E4800577ECF /* fiat.png */; };
+		9B63BDC71F1E8E4800577ECF /* focus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDC21F1E8E4800577ECF /* focus.jpg */; };
+		9B63BDC81F1E8E4800577ECF /* harley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDC31F1E8E4800577ECF /* harley.jpg */; };
+		9B63BDC91F1E8E4800577ECF /* hymer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDC41F1E8E4800577ECF /* hymer.jpg */; };
+		9B63BDCA1F1E8E4800577ECF /* prevost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B63BDC51F1E8E4800577ECF /* prevost.jpg */; };
+		9B63BDCC1F1E900200577ECF /* Vehicule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63BDCB1F1E900200577ECF /* Vehicule.swift */; };
+		9B63BDCE1F1E90D100577ECF /* Automobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63BDCD1F1E90D100577ECF /* Automobile.swift */; };
+		9B63BDD01F1E90F900577ECF /* Motocyclette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63BDCF1F1E90F900577ECF /* Motocyclette.swift */; };
+		9B63BDD21F1E912400577ECF /* Motorise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63BDD11F1E912400577ECF /* Motorise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		9B63BDB31F1E88B400577ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B63BDB61F1E88B400577ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B63BDB81F1E88B400577ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B63BDBE1F1E8A2000577ECF /* CellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellClass.swift; sourceTree = "<group>"; };
+		9B63BDC11F1E8E4800577ECF /* fiat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fiat.png; path = images/fiat.png; sourceTree = "<group>"; };
+		9B63BDC21F1E8E4800577ECF /* focus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = focus.jpg; path = images/focus.jpg; sourceTree = "<group>"; };
+		9B63BDC31F1E8E4800577ECF /* harley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = harley.jpg; path = images/harley.jpg; sourceTree = "<group>"; };
+		9B63BDC41F1E8E4800577ECF /* hymer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hymer.jpg; path = images/hymer.jpg; sourceTree = "<group>"; };
+		9B63BDC51F1E8E4800577ECF /* prevost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prevost.jpg; path = images/prevost.jpg; sourceTree = "<group>"; };
+		9B63BDCB1F1E900200577ECF /* Vehicule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicule.swift; sourceTree = "<group>"; };
+		9B63BDCD1F1E90D100577ECF /* Automobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Automobile.swift; sourceTree = "<group>"; };
+		9B63BDCF1F1E90F900577ECF /* Motocyclette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motocyclette.swift; sourceTree = "<group>"; };
+		9B63BDD11F1E912400577ECF /* Motorise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		9B63BDAB1F1E88B400577ECF /* Vehicule */ = {
 			isa = PBXGroup;
 			children = (
+				9B63BDC01F1E8E3500577ECF /* images */,
 				9B63BDAC1F1E88B400577ECF /* AppDelegate.swift */,
 				9B63BDAE1F1E88B400577ECF /* ViewController.swift */,
+				9B63BDCB1F1E900200577ECF /* Vehicule.swift */,
+				9B63BDCD1F1E90D100577ECF /* Automobile.swift */,
+				9B63BDCF1F1E90F900577ECF /* Motocyclette.swift */,
+				9B63BDD11F1E912400577ECF /* Motorise.swift */,
 				9B63BDB01F1E88B400577ECF /* Main.storyboard */,
+				9B63BDBE1F1E8A2000577ECF /* CellClass.swift */,
 				9B63BDB31F1E88B400577ECF /* Assets.xcassets */,
 				9B63BDB51F1E88B400577ECF /* LaunchScreen.storyboard */,
 				9B63BDB81F1E88B400577ECF /* Info.plist */,
 			);
 			path = Vehicule;
+			sourceTree = "<group>";
+		};
+		9B63BDC01F1E8E3500577ECF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9B63BDC11F1E8E4800577ECF /* fiat.png */,
+				9B63BDC21F1E8E4800577ECF /* focus.jpg */,
+				9B63BDC31F1E8E4800577ECF /* harley.jpg */,
+				9B63BDC41F1E8E4800577ECF /* hymer.jpg */,
+				9B63BDC51F1E8E4800577ECF /* prevost.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B63BDB71F1E88B400577ECF /* LaunchScreen.storyboard in Resources */,
+				9B63BDC71F1E8E4800577ECF /* focus.jpg in Resources */,
+				9B63BDC81F1E8E4800577ECF /* harley.jpg in Resources */,
 				9B63BDB41F1E88B400577ECF /* Assets.xcassets in Resources */,
+				9B63BDC91F1E8E4800577ECF /* hymer.jpg in Resources */,
+				9B63BDCA1F1E8E4800577ECF /* prevost.jpg in Resources */,
 				9B63BDB21F1E88B400577ECF /* Main.storyboard in Resources */,
+				9B63BDC61F1E8E4800577ECF /* fiat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B63BDBF1F1E8A2000577ECF /* CellClass.swift in Sources */,
 				9B63BDAF1F1E88B400577ECF /* ViewController.swift in Sources */,
+				9B63BDCC1F1E900200577ECF /* Vehicule.swift in Sources */,
 				9B63BDAD1F1E88B400577ECF /* AppDelegate.swift in Sources */,
+				9B63BDCE1F1E90D100577ECF /* Automobile.swift in Sources */,
+				9B63BDD21F1E912400577ECF /* Motorise.swift in Sources */,
+				9B63BDD01F1E90F900577ECF /* Motocyclette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
